@@ -1,0 +1,73 @@
+Python obj.py 
+
+1. b
+
+2.b
+
+3.d
+
+4.b
+
+5.a
+
+6.c
+
+7.d
+
+8.b
+
+9.d
+
+10.c
+
+11.a
+
+12.d
+
+13.c
+
+14.c
+
+15.b
+
+16.a
+
+17.d
+
+18. a
+
+19.d
+
+20.c
+
+21. c
+
+22.a
+
+23.d
+
+24.c
+
+25. c
+
+26.b
+
+27.d
+
+28. b
+
+29. c
+
+30. a
+
+
+
+THEORY.
+1.The error lies in the fact that the models class would not be implemented properly without an (id=models.Autofield(primary_key=True)) for the book to assign it a unique value. 
+The title and author fields of the model are also missing the line of code null=True.
+This line of code ensures that we are unable to leave the title and wuthor of the book query empty.
+
+2.This serializer is missing class Meta which defines the fields below it, with that it should be noted that the fiels earlier defined should then be enclosed in this manner fields=('id','title','author','publicationyear')
+
+3.Loops are lines of code that  are used to execute a set of instructions while a particular condition proves to be true or used to iterate through  collections(lists,dictionaries ).
+4. Conditional statements are programming written statements that are used to perform various operations when a particular logic earlier defined is proved to be valid.
